@@ -4,7 +4,7 @@ int main(){
     char name1[200];
     char name2[200];
     printf("ENTER YOUR NAME HERE \n");
-    printf("USE CAPS ONLY!!! \n")
+    printf("USE CAPS ONLY!!! \n");
     printf("AVOID WHITE SPACES \n");
     scanf("%s",&name1);
     scanf("%s",&name2);

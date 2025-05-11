@@ -1,6 +1,10 @@
 #include<stdio.h>
 int check( int r[2][2]){
     int s;
+    win:
+        if (s==1){
+            return s;
+        }
     for(int c=0; c<3 ; c++){
         char k = r[c][0];
         char p = r[c][1];
@@ -13,6 +17,7 @@ int check( int r[2][2]){
             s=0;
         }
     }
+    goto win;
     for(int d=0; d<3 ; d++){
         char k = r[0][d];
         char p = r[1][d];
@@ -25,6 +30,7 @@ int check( int r[2][2]){
             s=0;
         }
     }
+    
     
 
 
